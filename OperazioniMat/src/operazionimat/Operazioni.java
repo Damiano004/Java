@@ -49,9 +49,9 @@ public class Operazioni {
 
     public String stampa() {
         String out="-------------------\n";
-        out+= "a=" + a + " b=" + b + "\na+b=" + somma() 
-           + "\na-b=" + sottrazione() + "\na*b=" + moltiplicazione() 
-           + "\na:b=" + divisione();
+        out+= "a=" + a + " b=" + b + "\n"+a+"+"+b+"=" + somma() 
+           + "\n"+a+"-"+b+"=" + sottrazione() + "\n"+a+"*"+b+"=" + moltiplicazione() 
+           + "\n"+a+"/"+b+"=" + divisione();
         return out;
     }
 }
